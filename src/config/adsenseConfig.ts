@@ -25,10 +25,10 @@ export interface AdSenseConfigType {
 
 export const ADSENSE_CONFIG: AdSenseConfigType = {
   // Set to true once you have been approved by Google AdSense
-  enabled: false,
+  enabled: true,
   
   // Replace with your real Publisher ID from Google AdSense (e.g. "ca-pub-1234567890123456")
-  publisherId: "ca-pub-XXXXXXXXXXXXXXXX",
+  publisherId: "ca-pub-6132049882910745",
   
   // Enable Google test mode while testing ads locally or in staging
   testMode: true,
