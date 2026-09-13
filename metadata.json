@@ -1,0 +1,6 @@
+{
+  "name": "ZeeMark - 3D Digital Marketing & SEO Tools",
+  "description": "Grow Your Business Digitally. Explore in-depth digital marketing guides, free copywriting and social media generators, and interactive SEO audit tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
