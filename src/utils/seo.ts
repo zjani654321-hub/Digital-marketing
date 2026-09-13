@@ -35,7 +35,8 @@ export function updateDocumentSEO(seo: PageSEO) {
 
   // Update or create Canonical link
   const origin = window.location.origin;
-  const canonicalUrl = `${origin}${seo.canonicalPath || '/'}`;
+  const basePath = window.location.pathname.startsWith('/Digital-marketing') ? '/Digital-marketing' : '';
+  const canonicalUrl = `${origin}${basePath}${seo.canonicalPath || '/'}`;
   let canonicalLink = document.querySelector('link[rel="canonical"]');
   if (!canonicalLink) {
     canonicalLink = document.createElement('link');
